@@ -1,0 +1,72 @@
+.login-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 350px;
+  width: 100%;
+  position: absolute;
+  top: 100px;
+}
+
+.form {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 1px 1px gray;
+  gap: 30px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  color: white;
+  opacity: 40%;
+  width: 20%;
+}
+
+input {
+  display: flex;
+  border-bottom: 1px solid white;
+  font-family: -apple-system;
+  border-right: none;
+  text-shadow: 1px 1px 1px 1px white;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.login-button-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form-login-button {
+  color: black;
+  background-color: gray;
+  cursor: pointer;
+  font-weight: bold;
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.form-login-button:hover {
+  font-weight: bolder;
+  color: white;
+}
+
+.login-form-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.info-message {
+  display: flex;
+  justify-content: center;
+  font-size: x-small;
+  font-weight: bold;
+  color: red;
+}

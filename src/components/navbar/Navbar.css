@@ -1,0 +1,137 @@
+.navbar {
+  display: flex;
+  height: 300px;
+}
+
+.div1,
+.div3 {
+  width: 20%;
+  height: 20%;
+}
+
+.div11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.div2 {
+  width: 60%;
+  height: 100%;
+}
+
+.div11,
+.div31 {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+}
+
+.div21 {
+  height: 20%;
+  border-bottom: 1px solid gray;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.div22 {
+  height: 80%;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.nav-items {
+  color: gray;
+  border: none;
+  cursor: pointer;
+  font-family: -apple-system;
+  width: 100%;
+  font-weight: 400;
+  font-size: medium;
+  text-shadow: 2px 2px 2px 2px white;
+}
+
+.nav-items-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 20px;
+}
+
+.nav-items:hover {
+  .nav-items-name {
+    background-color: rgba(128, 128, 128, 0.669);
+    color: white;
+    opacity: 50%;
+  }
+}
+
+.nav-items-dropdown {
+  color: gray;
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+  opacity: 75%;
+  justify-content: space-around;
+  visibility: hidden;
+  margin-top: 1vh;
+  flex: 1;
+  border-radius: 10px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px white;
+}
+
+.nav-items-dropdown button {
+  color: gray;
+  cursor: pointer;
+  height: auto;
+  text-shadow: 2px 2px 2px 2px white;
+  border: none;
+  border-radius: 20px;
+}
+
+.nav-items-dropdown button:hover {
+  color: white;
+  background-color: rgba(128, 128, 128, 0.669);
+}
+
+.get-started-button {
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.get-started-button:hover {
+  color: white;
+  background-color: gray;
+}
+
+.div31 button {
+  border: none;
+  color: gray;
+  display: flex;
+  font-weight: bold;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  color: white;
+}
